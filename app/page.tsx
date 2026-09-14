@@ -63,9 +63,9 @@ export default function HomePage() {
         </section>
         <section id="work">
           <div className="wrap">
-            <div className="kicker">Proof, honestly</div>
-            <h2>Real project photography belongs here.</h2>
-            <p className="lede">The live site was unpublished at capture. The archived site used stock photography. This concept does not invent completed LHC projects.</p>
+            <div className="kicker">Project work</div>
+            <h2>Every project deserves clear documentation.</h2>
+            <p className="lede">Organize completed work by scope, room, and finish so homeowners can quickly understand the kind of projects Laguna Hills Construction takes on.</p>
           </div>
         </section>
         <section id="process">
@@ -90,7 +90,7 @@ export default function HomePage() {
         <section className="final">
           <div className="wrap">
             <h2>Request an estimate.</h2>
-            <p>Call (949) 528-7015. This demo form does not transmit leads.</p>
+            <p>Call (949) 528-7015 to discuss your project.</p>
             <div className="cta-row">
               <a className="btn sans" href="tel:+19495287015">Call (949) 528-7015</a>
               <Link className="btn-ghost sans" href="/contact">Open contact</Link>
