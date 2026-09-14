@@ -39,9 +39,6 @@ export function Footer() {
           <div>Sat–Sun by appointment</div>
         </div>
       </div>
-      <div className="wrap note">
-        Speculative redesign by Novenworks. Not an official LHC website. Marks and photography remain the property of their owners.
-      </div>
     </footer>
   );
 }
