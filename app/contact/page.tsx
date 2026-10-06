@@ -18,14 +18,13 @@ export default function ContactPage() {
         <div className="kicker">Contact</div>
         <h1 style={{ fontSize: 42, fontWeight: 500 }}>Request an estimate</h1>
         <p className="lede">
-          Use the number the company publishes:{" "}
-          <a href="tel:+19495287015">(949) 528-7015</a>. Hours listed first-party: Mon–Fri 7:00 am–5:00 pm;
+          Call us at{" "}
+          <a href="tel:+19495287015">(949) 528-7015</a>. Hours: Mon–Fri 7:00 am–5:00 pm;
           weekends by appointment. Laguna Hills, CA. License #1049889.
         </p>
         {sent ? (
           <p className="card" style={{ marginTop: 24 }}>
-            Demo only — this form does not send a message to Laguna Hills Construction. Call (949) 528-7015 to
-            reach the company.
+            Concept preview: this form does not send anything yet, so nothing was delivered. Please call (949) 528-7015 to reach us.
           </p>
         ) : (
           <form onSubmit={onSubmit} style={{ marginTop: 28 }}>
@@ -42,9 +41,9 @@ export default function ContactPage() {
               <textarea name="notes" rows={5} />
             </label>
             <button className="btn sans" type="submit">
-              Submit demo request
+              Preview request
             </button>
-            <p className="note">This is a speculative demo. Submissions stay in the browser.</p>
+            <p className="note">Concept preview. Nothing is sent or stored.</p>
           </form>
         )}
       </main>

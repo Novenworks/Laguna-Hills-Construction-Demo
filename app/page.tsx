@@ -36,21 +36,21 @@ export default function HomePage() {
           <div className="card">
             <div className="kicker">License</div>
             <h3>#1049889 · General B</h3>
-            <p>Family-owned. Laguna Hills. Direct line (949) 528-7015.</p>
+            <p>Family-owned, based in Laguna Hills. Call us directly at (949) 528-7015.</p>
           </div>
         </div>
         <div className="wrap">
           <div className="proof">
             <div><strong>Family owned</strong>Locally operated</div>
             <div><strong>License #1049889</strong>California General B</div>
-            <div><strong>20+ years experience</strong>First-party claim</div>
+            <div><strong>20+ years experience</strong>Building in Orange County</div>
             <div><strong>(949) 528-7015</strong>Direct line</div>
           </div>
         </div>
         <section id="services">
           <div className="wrap">
             <div className="kicker">What we take on</div>
-            <h2>Work grouped the way owners actually decide.</h2>
+            <h2>The work we take on.</h2>
             <div className="grid-3">
               <article className="card"><h3>Kitchens</h3><p>Layouts and finishes that have to work every morning.</p></article>
               <article className="card"><h3>Bathrooms</h3><p>Wet-area details that decide whether a space lasts.</p></article>
@@ -64,14 +64,14 @@ export default function HomePage() {
         <section id="work">
           <div className="wrap">
             <div className="kicker">Project work</div>
-            <h2>Every project deserves clear documentation.</h2>
-            <p className="lede">Organize completed work by scope, room, and finish so homeowners can quickly understand the kind of projects Laguna Hills Construction takes on.</p>
+            <h2>Projects, scoped before we start.</h2>
+            <p className="lede">From a single kitchen or bathroom to a whole-home remodel, a custom build, or a commercial interior, we walk the job, write down the scope, and agree on materials and sequencing before demolition begins. Call us to talk through your project.</p>
           </div>
         </section>
         <section id="process">
           <div className="wrap">
             <div className="kicker">How a job starts</div>
-            <h2>A simple, truthful process.</h2>
+            <h2>How a job starts.</h2>
             <div className="steps">
               <div className="step"><h3>Call or write</h3><p>Share the address, rooms, and timing.</p></div>
               <div className="step"><h3>Walk the work</h3><p>Estimate from actual conditions.</p></div>
@@ -83,17 +83,17 @@ export default function HomePage() {
         <section id="area">
           <div className="wrap">
             <div className="kicker">Service area</div>
-            <h2>Laguna Hills and the Orange County cities they name.</h2>
+            <h2>Laguna Hills and across Orange County.</h2>
             <div className="cities">{cities.map((c) => (<span key={c}>{c}</span>))}</div>
           </div>
         </section>
         <section className="final">
           <div className="wrap">
-            <h2>Request an estimate.</h2>
-            <p>Call (949) 528-7015 to discuss your project.</p>
+            <h2>Tell us about your project.</h2>
+            <p>Call (949) 528-7015 to discuss your project, or send us the details.</p>
             <div className="cta-row">
               <a className="btn sans" href="tel:+19495287015">Call (949) 528-7015</a>
-              <Link className="btn-ghost sans" href="/contact">Open contact</Link>
+              <Link className="btn-ghost sans" href="/contact">Request an estimate online</Link>
             </div>
           </div>
         </section>
